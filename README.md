@@ -4,7 +4,11 @@ Projeto final desenvolvido por **Edilano Melo** - Geração Tech / Digital Store
 
 Loja virtual de tênis e acessórios, fiel ao layout do Figma, com Home, Listagem com filtros e Detalhe do produto.
 
-**🔗 Demo Online:** [Clique aqui para ver o projeto no ar](https://SEU-LINK-VERCEL.vercel.app)
+### 🔗 Ver o projeto online:
+https://digital-store-bice.vercel.app/
+
+### 📁 Repositório GitHub:
+https://github.com/Edilano-Gonzaga/digital-store
 
 ## 🚀 Funcionalidades
 
