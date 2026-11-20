@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: #F9F8FE;
+  color: #1F1F1F;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* MOBILE - FIGMA - SITE TODO */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px !important;
+    max-width: 100% !important;
+  }
+
+  /* Grid de produtos: 2 por linha - SITE TODO */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  /* Hero empilha */
+  .hero-container {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .hero-container h1 {
+    font-size: 32px !important;
+  }
+
+  .hero-container img {
+    width: 100% !important;
+    max-height: 280px !important;
+  }
+
+  /* Coleções 1 por linha */
+  .collections-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Banner oferta empilha */
+  .offer-banner {
+    flex-direction: column !important;
+    padding: 20px !important;
+    gap: 20px !important;
+  }
+
+  .offer-banner img {
+    width: 100% !important;
+  }
+
+  /* Filtros em cima - PAGINA PRODUTOS */
+  .listing-layout {
+    flex-direction: column !important;
+  }
+
+  .listing-layout aside {
+    width: 100% !important;
+    margin-bottom: 16px;
+  }
+
+  /* Detail empilha - PAGINA DETALHE */
+  .detail-layout {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .detail-layout img {
+    width: 100% !important;
+  }
+
+  /* NOVO - trava esmagamento que apareceu no seu print */
+  body {
+    min-width: 320px;
+  }
+
+  /* Footer empilha */
+  footer > div {
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+}
