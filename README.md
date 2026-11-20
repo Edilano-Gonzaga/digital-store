@@ -1,16 +1,25 @@
-# React + Vite
+# 👟 Digital Store - Drip Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto final desenvolvido por **Edilano Melo** - Geração Tech / Digital Store.
 
-Currently, two official plugins are available:
+Loja virtual de tênis e acessórios, fiel ao layout do Figma, com Home, Listagem com filtros e Detalhe do produto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**🔗 Demo Online:** [Clique aqui para ver o projeto no ar](https://SEU-LINK-VERCEL.vercel.app)
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home:** Hero com carrossel, Coleções em destaque, Produtos em alta e Oferta especial Air Jordan
+- **Produtos:** Busca por nome, filtro por preço, ordenação por menor/maior preço
+- **Detalhe do Produto:** Seleção de tamanho e cor, produtos relacionados
+- **Layout Responsivo:** Desktop, tablet e mobile com menu hambúrguer
+- **Header Inteligente:** Link ativo fica rosa só na página atual
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- React Router DOM
+- JavaScript ES6
+- CSS Inline + Responsivo
+- Vercel para Deploy
+
+## 📁 Estrutura do Projeto
