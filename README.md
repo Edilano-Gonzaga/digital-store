@@ -23,3 +23,28 @@ Loja virtual de tênis e acessórios, fiel ao layout do Figma, com Home, Listage
 - Vercel para Deploy
 
 ## 📁 Estrutura do Projeto
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── ProductCard.jsx
+│   └── Layout.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   ├── ProductListingPage.jsx
+│   └── ProductViewPage.jsx
+├── data/
+│   └── products.js
+└── App.jsx
+
+
+## 💻 Como rodar na sua máquina
+
+```bash
+git clone https://github.com/Edilano-Gonzaga/digital-store.git
+cd digital-store
+npm install
+npm run dev
+
+Depois abre em http://localhost:5173👨‍💻 Desenvolvido porEdilano Melo - Fortaleza, CE
+GitHub: https://github.com/Edilano-Gonzaga© 2026 Digital Store | Desenvolvido por Edilano Melo
